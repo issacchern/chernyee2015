@@ -1,54 +1,56 @@
 Chern Yee, Chua
-•1(716)380-6601 • issac.chua12@gmail.com • https://www.linkedin.com/in/issacchern
+•1(716)380-6601 • issac.chua12@gmail.com • https://www.acsu.buffalo.edu/~chernyee/
 
 Objective: 
 Seeking internship in computer engineering field.  Highly interested in software design and development as well as hardware/software interfaces.
 
 Education: 
-UNIVERSITY AT BUFFALO, THE STATE UNIVERSITY OF NEW YORK				DEC 2015 (EXPECTED)
-· Bachelor of Science in Computer Engineering , 3.93/4.0 GPA
+UNIVERSITY AT BUFFALO, THE STATE UNIVERSITY OF NEW YORK				DEC 2015
+· Bachelor of Science in Computer Engineering , 3.9/4.0 GPA
 · Dean’s List (FALL 2013 – SPRING 2015) 
 · Member of Tau Sigma National Honor Society, Tau Beta Pi Engineering Honor Society, ACM UB Chapter, GDG Buffalo
 
 Relevant Coursework:
-Intro to Computer Science Major, Discrete Structures, Digital Systems, Data Structures, Computer Organization, Real-time & Embedded OS, Microprocessors & Microcomputers, Hardware/Software Integrated System
+Digital Systems, Data Structures, Computer Organization, Real-time & Embedded OS, Microprocessors & Microcomputers, Hardware/Software Integrated System, Computer Systems Administration, Operating Systems, Software Engineering
 
 Skills & Abilities:
-PROGRAMMING SKILLS
-· High Level Programming in C, C++, Java, Python; HDL Verilog; Assembly MIPS, ARM; XML, HTML, and CSS
 TECHNICAL SKILLS
+· Programming Skills: C, C++, Java, Python; HDL Verilog; Assembly MIPS, ARM; HTML, CSS, JavaScript and SQL
 · Software Skills: GitHub, Android Studio, PuTTy, Cygwin Terminal, Keil uVision, Multisim
 Operating System: Microsoft Windows, Linux, Android, Embedded Linux
 LANGUAGE PROFICIENCY
 · Chinese Mandarin (Native Fluency), English (Professional Proficiency), Malay (Competent Proficiency)
 
+Employment Experience: 
+UNDERGRADUATE RESEARCH ASSISTANT, UNIVERSITY AT BUFFALO SUMMER 2015 – PRESENT
+· Developed an eclipse plugin software that is capable of capturing all the changes under JavaModel in eclipse and record data to a file
+· Collect data from students and analyze the data in order to teach beginner students how to code efficiently
+· Check out the project on GitHub: https://github.com/issacchern/Sapphire
+
 Academic Projects:
 BADGE TRACKING SYSTEM (GROUP PROJECT)						SPRING 2015
-· Using Arduino UNO microcontroller board with NFC chip and WIFI shield installed to implement tracking badge
-· Localizing badge device based on the relative distance from WIFI routers and sending to database manager 
-· Documenting group project design and user guide
+· Used Arduino UNO microcontroller board with NFC chip and WIFI shield installed to implement tracking badge
+· Localized badge device based on the relative distance from WIFI routers and sending to database manager 
+· Documented group project design and user guide
 
 BOMBERMAN IN ASSEMBLY LANGUAGE (GROUP PROJECT)					SPRING 2015
-· Designing game requirements and schedules with partner
-· Implementing Nintendo Bomberman game using ARM Assembly Language
-· Optimizing runtime performance of the game and utilization of peripherals
+· Designed game requirements and schedules with partner
+· Implemented Nintendo Bomberman game using ARM Assembly Language
+· Optimized runtime performance of the game and utilization of peripherals
 
 TOP-DOWN PARSING TREE (GROUP PROJECT)						SPRING 2015
 · Developed a toy programming language that followed Chomsky notation with EBNF extensions in Java 
 · Constructed object-oriented parsing tree in JIVE which also handled semantic errors 
 
-XINU AND DRONE CONTROL SIMULATOR						FALL 2014
-· Interacted with embedded XINU operating system using wireless router WRT54GL as  a host and a basic NEXOS test environment for cross-compiling and networking support
-· Implemented Pthread in C program to simulate a real-world drone control and deployment system
-
-Individual Projects: 
+Individual Project: 
 ANDROID APPLICATION DEVELOPMENT 						SUMMER 2014
 · Customized a well-known Chinese game in both English and Chinese using AppInventor
 Google Play Store: https://play.google.com/store/apps/details?id=appinventor.ai_Issac_Chua12.Undercover_3&hl=en
 
 Volunteering and Experiences: 
-· Working as student assistant at Pistachio, UB Campus Dining & Shops 		SPRING 2014 – PRESENT
 · Tutoring engineering courses for Tau Beta Pi Engineering Honor Society	SPRING 2015 – PRESENT
-· Volunteering for international student orientation at UB			FALL 2014
+· Worked as student assistant at Pistachio, UB Campus Dining & Shops 		SPRING 2014 – SPRING 2015
+
+
 
 
