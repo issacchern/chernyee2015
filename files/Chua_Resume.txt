@@ -1,56 +1,63 @@
 Chern Yee, Chua
-•1(716)380-6601 • issac.chua12@gmail.com • https://www.acsu.buffalo.edu/~chernyee/
+• 1(716)-380-6601 • issac.chua12@gmail.com • http://www.acsu.buffalo.edu/~chernyee/ 
 
-Objective: 
-Seeking internship in computer engineering field.  Highly interested in software design and development as well as hardware/software interfaces.
+> Objective
 
-Education: 
-UNIVERSITY AT BUFFALO, THE STATE UNIVERSITY OF NEW YORK				DEC 2015
-· Bachelor of Science in Computer Engineering , 3.9/4.0 GPA
-· Dean’s List (FALL 2013 – SPRING 2015) 
-· Member of Tau Sigma National Honor Society, Tau Beta Pi Engineering Honor Society, ACM UB Chapter, GDG Buffalo
+Highly motivated and interested, seeking a career in software design and development as well as hardware/software interfaces.
 
-Relevant Coursework:
+> Education
+
+UNIVERSITY AT BUFFALO, THE STATE UNIVERSITY OF NEW YORK			DEC 2015 
+Bachelor of Science in Computer Engineering , 3.9/4.0 GPA
+Dean’s List (FALL 2013 – SPRING 2015) 
+Member of Tau Beta Pi Engineering Honor Society, Tau Sigma Society, ACM UB Chapter, GDG Buffalo Chapter
+
+> Employment Experience
+
+UNDERGRADUATE RESEARCH ASSISTANT, UNIVERSITY AT BUFFALO			JUNE 2015 – PRESENT
+·Developed an eclipse plugin software that captures the changes under JavaModel in Eclipse and record data to a file
+·Collecting inputs from students and analyzing the data to learn the process of beginner’s coding 
+·GitHub link: https://github.com/issacchern/Sapphire  
+
+STUDENT ASSISTANT, UB CAMPUS DINING & SHOPS				JAN 2014 – MAY 2015
+·Resolved and provided customers with an excellent experience and quality service
+·Assisted chefs in preparing food items and dishes and ensured the cleanliness of kitchen and dining area
+·Took initiative to help other co-workers when scheduled duties were completed 
+
+> Projects
+
+PROJECT “FAIRWELL” (GROUP PROJECT)					FALL 2015
+·Leading a team of eight to create and design a debt-solving application across multiple platforms
+·Building Android application for “Fairwell” with two other members using Android Studio
+·Website link: http://budgetninja.github.io/ 
+
+BOMBERMAN IN ARM ASSEMBLY LANGUAGE (GROUP PROJECT)			SPRING 2015
+·Designed game requirements and schedules with my partner
+·Implemented Nintendo Bomberman game in ARM microprocessor using UART serial communication
+·Optimized runtime performance of the game and utilization of peripherals
+
+TOP-DOWN PARSING TREE (GROUP PROJECT)					SPRING 2015
+·Developed a toy programming language that followed Chomsky notation with EBNF extensions in Java 
+·Constructed object-oriented parsing tree in JIVE which also handled semantic errors 
+
+ANDROID APP “WHO IS UNDERCOVER” (INDIVIDUAL PROJECT)			SUMMER 2014
+·Customized a famous Chinese board game in both English and Chinese using AppInventor with over 1000 downloads
+·Play Store link: https://play.google.com/store/apps/details?id=appinventor.ai_Issac_Chua12.Undercover_3&hl=en
+
+>Relevant Coursework
 Digital Systems, Data Structures, Computer Organization, Real-time & Embedded OS, Microprocessors & Microcomputers, Hardware/Software Integrated System, Computer Systems Administration, Operating Systems, Software Engineering
 
-Skills & Abilities:
-TECHNICAL SKILLS
-· Programming Skills: C, C++, Java, Python; HDL Verilog; Assembly MIPS, ARM; HTML, CSS, JavaScript and SQL
-· Software Skills: GitHub, Android Studio, PuTTy, Cygwin Terminal, Keil uVision, Multisim
-Operating System: Microsoft Windows, Linux, Android, Embedded Linux
+> Skills & Abilities
+
+TECHNICAL SKILLS 
+Programming Skills: Java, C, C++; ARM Assembly Language; HDL Verilog; HTML, CSS, JavaScript and SQL
+Software Skills: Git/GitHub, Android Studio, PuTTy, Cygwin Terminal, Keil uVision, Multisim
+Operating Systems: Microsoft Windows, Linux, Android
+
 LANGUAGE PROFICIENCY
-· Chinese Mandarin (Native Fluency), English (Professional Proficiency), Malay (Competent Proficiency)
+Chinese Mandarin (Native Fluency), English (Professional Proficiency), Malay (Competent Proficiency)
 
-Employment Experience: 
-UNDERGRADUATE RESEARCH ASSISTANT, UNIVERSITY AT BUFFALO SUMMER 2015 – PRESENT
-· Developed an eclipse plugin software that is capable of capturing all the changes under JavaModel in eclipse and record data to a file
-· Collect data from students and analyze the data in order to teach beginner students how to code efficiently
-· Check out the project on GitHub: https://github.com/issacchern/Sapphire
+> Volunteering and Experiences
 
-Academic Projects:
-BADGE TRACKING SYSTEM (GROUP PROJECT)						SPRING 2015
-· Used Arduino UNO microcontroller board with NFC chip and WIFI shield installed to implement tracking badge
-· Localized badge device based on the relative distance from WIFI routers and sending to database manager 
-· Documented group project design and user guide
-
-BOMBERMAN IN ASSEMBLY LANGUAGE (GROUP PROJECT)					SPRING 2015
-· Designed game requirements and schedules with partner
-· Implemented Nintendo Bomberman game using ARM Assembly Language
-· Optimized runtime performance of the game and utilization of peripherals
-
-TOP-DOWN PARSING TREE (GROUP PROJECT)						SPRING 2015
-· Developed a toy programming language that followed Chomsky notation with EBNF extensions in Java 
-· Constructed object-oriented parsing tree in JIVE which also handled semantic errors 
-
-Individual Project: 
-ANDROID APPLICATION DEVELOPMENT 						SUMMER 2014
-· Customized a well-known Chinese game in both English and Chinese using AppInventor
-Google Play Store: https://play.google.com/store/apps/details?id=appinventor.ai_Issac_Chua12.Undercover_3&hl=en
-
-Volunteering and Experiences: 
-· Tutoring engineering courses for Tau Beta Pi Engineering Honor Society	SPRING 2015 – PRESENT
-· Worked as student assistant at Pistachio, UB Campus Dining & Shops 		SPRING 2014 – SPRING 2015
-
-
-
-
+·Tutoring engineering courses for Tau Beta Pi Engineering Honor Society			
+·Actively participating in social events and hackathons 			
