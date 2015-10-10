@@ -1038,15 +1038,19 @@
 /* One */
 
 	#one:before {
-		background-image: url("../images/h12.jpg");
-		background-position: top right;
+		background-image: url("../images/bg.jpg");
+		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		content: '';
 		display: block;
-		height: 16em;
+		height: 20em;
 		width: 100%;
+        
+        
 	}
+
+
 
 /* Footer */
 
@@ -1081,3 +1085,10 @@
 				#footer .copyright li a {
 					color: inherit;
 				}
+
+
+#cycler{
+    position:relative;
+}
+#cycler img{position:absolute;z-index:1}
+#cycler img.active{z-index:3}

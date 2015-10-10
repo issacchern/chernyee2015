@@ -23,6 +23,25 @@
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
         
+        <script>
+        function cycleImages(){
+      var $active = $('#cycler .active');
+      var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
+      $next.css('z-index',2);//move the next image up the pile
+      $active.fadeOut(1500,function(){//fade out the top image
+	  $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
+          $next.css('z-index',3).addClass('active');//make the next image the top one
+      });
+    }
+
+$(document).ready(function(){
+// run every 7s
+setInterval('cycleImages()', 10000);
+})
+        
+        
+        </script>
+        
 
  
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
@@ -30,6 +49,9 @@
     
     
 	<body>
+        
+
+        
 		<div id="wrapper">
 
 			<!-- Header -->
@@ -72,7 +94,11 @@
 							<div align=justify class="container">
 								<header class="major">
 									<h2>My Portfolio</h2>
-									<p align=left>I am a programmer, software developer, and engineer.  <br />
+
+                                    
+                                    
+                                    
+									<p align=left>I am a software developer, designer and engineer.  <br />
 									</p>
 								</header>
 								<p>My name is Chern Yee Chua. I have a nickname "Issac" for myself because people always have a hard time remembering and pronouncing my name right.
@@ -351,6 +377,8 @@
                                 <h4>Project download: </h4>
                                 
 								<ul class="actions vertical small">
+                                    
+
                                     <li >Who is Undercover? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         &nbsp;&nbsp;&nbsp;&nbsp; <a href="files/Undercover.apk" class="button special small">Download</a></li>
 								    <li>Bomberman in Assembly  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -368,7 +396,7 @@
 
                                 
                                 <h4>Contact info:</h4>
-                                    <li class="icon fa-map-marker">  &nbsp;Buffalo, United States</li>
+                                    <li class="icon fa-map-marker">   &nbsp; &nbsp;&nbsp;Buffalo, United States</li>
                                     <li class="icon fa-envelope-o"> &nbsp;issac[dot]chua12[at]gmail.com </li> 
                                     <li class="icon fa-envelope">  &nbsp;chernyee[at]buffalo.edu </li>
                                     <li class="icon fa-phone">  &nbsp;+1 (716) 380 - 6601</li>
@@ -382,20 +410,56 @@
 								<section>
 									<h4>More About Me</h4>
 									
-									<span class="image fit"><img src="images/bg2.jpg" alt="" /></span>
+									<!--<span class="image fit"><img src="images/bg2.jpg" alt="" /></span> -->
+                                    
+                                    
+     
+                                        <div id="cycler">
+                                            
+                                            <span class="image fit">
+                                                <img class="active" src="images/slide1.jpg" alt="" />
+                                                <img src="images/slide2.jpg" alt="" />	
+                                                <img src="images/slide3.jpg" alt="" />	
+                                                <img src="images/slide4.jpg" alt="" />	
+                                                <img src="images/slide5.jpg" alt="" />	
+                                                <img src="images/slide6.jpg" alt="" />	
+                                                <img src="images/slide7.jpg" alt="" />
+                                                
+                                             </span>
+
+                                        </div>
+                                    
+                                        <span class="image fit">
+                                            <img class="active" src="images/slide1.jpg" alt="" />
+                                        </span>
+
+                                   
+                                    
+                                    
+                                    
+                                    
+                                    
                                     
 									<div class="box alt">
 										<p align=justify> 
                                              
-                                            In my free time, I like working out and writing codes. I have a very strong passion in learning and I also enjoy creating wonderful stuff such as websites, software 
-                                            applications and etc. During last summer, I taught myself web design and android development. I consider myself as a "geek" as the reason that I
+                                            In my free time, I like travelling, taking photograph, working out and writing code. I have a very strong passion in learning and I enjoy creating wonderful stuff 
+                                            such as websites, software applications and etc. During last summer, I taught myself web design and android development. I consider myself as a "geek" as the reason that I
                                             like checking out new technogical stuff such as computers, electronic devices, software applications and so on to get some sense of what technology has changed and 
                                             impacted our life. I am also enthusiastic in life that I always seek for opportunties to improve and make myself better in every aspect, aiming and achieving goals.
     
                                         </p>
 									</div>
 									<h5>My girlfriend &amp; I</h5>
-									<p align=justify><span class="image left"><img src="images/1.jpg" alt="" width = "210px"/></span>
+									<p align=justify>
+
+                                                <span class="image left">	
+                                                    <img  src="images/1.jpg" width = "220px" alt="" />	
+                                                </span>
+                                                
+                
+   
+                                       
                                         
                                         This is my girlfriend, Janice. We have been dating for over a year now. We met during friends' trip to Darien Lake. I really enjoy her accompany throughout our sememsters
                                         at UB. Now she has graduated and she found a job as E-Commerce specialist at NYC. Even though she is 500 miles away from me, I believe long distance relationship will not break 
@@ -403,7 +467,7 @@
       
                                         
                                         </p>
-									<p align=justify><span class="image right"><img src="images/3.JPG" width = "260px" alt="" /></span> One weakness about me is that I don't simply risk myself in doing something that will 
+									<p align=justify><span class="image right"><img src="images/3.JPG" width = "280px" alt="" /></span> One weakness about me is that I don't simply risk myself in doing something that will 
                                         affect my primary goal - which is my studies at UB. My unwillingness of trying something new makes me lose a lot of good opportunities to broaden my view and enrich my life. 
                                         As soon as I realized the weakness of mine, I decided to start participating in many meaningful events such as joining Tau Beta Pi Honor Society, taking part in Hackathon, tutoring 
                                         for honor club, attending talks and etc. 

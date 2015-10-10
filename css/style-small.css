@@ -96,7 +96,7 @@
 /* One */
 
 	#one:before {
-		height: 7em;
+		height: 12em;
 	}
 
 /* Footer */
@@ -128,3 +128,6 @@
 			font-size: 14px;
 			width: 44px;
 		}
+
+
+
