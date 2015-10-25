@@ -7,7 +7,8 @@
 <html>
 	<head>
 		<title>Issac Portfolio</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
@@ -24,23 +25,62 @@
 		</noscript>
         
         <script>
-        function cycleImages(){
-      var $active = $('#cycler .active');
-      var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
-      $next.css('z-index',2);//move the next image up the pile
-      $active.fadeOut(1500,function(){//fade out the top image
-	  $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
-          $next.css('z-index',3).addClass('active');//make the next image the top one
-      });
-    }
+            function cycleImages(){
+                var $active = $('#cycler .active');
+                var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
+                $next.css('z-index',2);//move the next image up the pile
+                $active.fadeOut(1500,function(){//fade out the top image
+                    $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
+                    $next.css('z-index',3).addClass('active');//make the next image the top one
+                });
+            }
 
-$(document).ready(function(){
-// run every 7s
-setInterval('cycleImages()', 10000);
-})
+            $(document).ready(function(){
+                // run every 7s
+                setInterval('cycleImages()', 10000);
+            })
         
         
         </script>
+        
+        <style type="text/css">
+        @import url(http://fonts.googleapis.com/css?family=Istok+Web);
+            @keyframes slidy {
+                0% { left: 0%; }
+                20% { left: 0%; }
+                25% { left: -100%; }
+                45% { left: -100%; }
+                50% { left: -200%; }
+                70% { left: -200%; }
+                75% { left: -300%; }
+                95% { left: -300%; }
+                100% { left: -400%; }
+            }
+            body, figure { 
+                margin: 0; background: #101010;
+                
+                
+            }
+            div#captioned-gallery { 
+                width: 100%; overflow: hidden; 
+            }
+            figure.slider { 
+                position: relative; width: 500%;
+                font-size: 0; animation: 30s slidy infinite; 
+            }
+            figure.slider figure { 
+                width: 20%; height: auto;
+                display: inline-block;  position: inherit; 
+            }
+            figure.slider img { width: 100%; height: auto; }
+            figure.slider figure figcaption { 
+                position: absolute; bottom: 0;
+                background: rgba(0,0,0,0.4);
+                color: #fff; width: 100%;
+                font-size: 1rem; padding: .6rem; 
+            }
+        
+        </style>
         
 
  
@@ -94,10 +134,8 @@ setInterval('cycleImages()', 10000);
 							<div align=justify class="container">
 								<header class="major">
 									<h2>My Portfolio</h2>
-
                                     
-                                    
-                                    
+       
 									<p align=left>I am a software developer, designer and engineer.  <br />
 									</p>
 								</header>
@@ -353,12 +391,7 @@ setInterval('cycleImages()', 10000);
 											</tfoot>
 										</table>
 									</div>
-									
-									
-                                
-                                
-                                
-                                
+	
                                 
 							</div>
 						</section>
@@ -396,7 +429,7 @@ setInterval('cycleImages()', 10000);
 
                                 
                                 <h4>Contact info:</h4>
-                                    <li class="icon fa-map-marker">   &nbsp; &nbsp;&nbsp;Buffalo, United States</li>
+                                    <li class="icon fa-map-marker"> &nbsp;&nbsp; Buffalo, United States</li>
                                     <li class="icon fa-envelope-o"> &nbsp;issac[dot]chua12[at]gmail.com </li> 
                                     <li class="icon fa-envelope">  &nbsp;chernyee[at]buffalo.edu </li>
                                     <li class="icon fa-phone">  &nbsp;+1 (716) 380 - 6601</li>
@@ -413,35 +446,40 @@ setInterval('cycleImages()', 10000);
 									<!--<span class="image fit"><img src="images/bg2.jpg" alt="" /></span> -->
                                     
                                     
-     
-                                        <div id="cycler">
+                                    
+                                    <div id="captioned-gallery">
+                                        <figure class="slider">
+                                            <figure>
+                                                <img src="images/slide2.jpg" alt>
+                                                <figcaption>Leisure trip to Letchworth State Park, New York</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <img src="images/slide3.jpg" alt>
+                                                <figcaption>We (team-13) won the most commit prize in Code for Good Hackathon organized by JPMorgan Chase</figcaption>
+                                            </figure>
+                                            <figure>
+                                                <img src="images/slide4.jpg" alt>
+                                                <figcaption>Taking photographs while I was in cable car to Penang Hill </figcaption>
+                                            </figure>
+                                            <figure>
+                                                <img src="images/slide5.jpg" alt>
+                                                <figcaption>Tau Beta Pi Engineering Honor Society induction ceremony</figcaption>
+                                            </figure>
                                             
-                                            <span class="image fit">
-                                                <img class="active" src="images/slide1.jpg" alt="" />
-                                                <img src="images/slide2.jpg" alt="" />	
-                                                <img src="images/slide3.JPG" alt="" />	
-                                                <img src="images/slide4.jpg" alt="" />	
-                                                <img src="images/slide5.jpg" alt="" />	
-                                                <img src="images/slide6.jpg" alt="" />	
-                                                <img src="images/slide7.jpg" alt="" />
-                                                
-                                             </span>
-
-                                        </div>
-                                    
-                                        <span class="image fit">
-                                            <img class="active" src="images/slide5.jpg" alt="" />
-                                        </span>
-
-                                   
+                                            <figure>
+                                                <img src="images/slide2.jpg" alt>
+                                                <figcaption>Leisure trip to Letchworth State Park, New York</figcaption>
+                                            </figure>
+                                        </figure>
+                                    </div>
                                     
                                     
-                                    
-                                    
+        
                                     
                                     
 									<div class="box alt">
 										<p align=justify> 
+                                            <br>
                                              
                                             In my free time, I like travelling, taking photograph, working out and writing code. I have a very strong passion in learning and I enjoy creating wonderful stuff 
                                             such as websites, software applications and etc. During last summer, I taught myself web design and android development. I consider myself as a "geek" as the reason that I
