@@ -57,7 +57,12 @@
                 
                 
                 if(getin == "iloveyou"){
+                   
                     correct = true;
+                    
+                    
+                    
+                    
                 } else{
                     alert("Wrong password!");
                 }
@@ -249,15 +254,18 @@
 		opacity: 0;
 		visibility: hidden;
 	}
+    
+
+    
 
 	@media (min-width: 768px){
-		.popup-container {
-			width:800px;
+		.popup-container {          
+			width:40%;
 		}
 	}
-	@media (max-width: 1767px){
+	@media (max-width: 767px){
 		.popup-container {
-			width:100%;
+			width:95%;
 		}
 	}
 	.popup-container {
@@ -280,6 +288,8 @@
 		line-height: 1;
 		color:#fff;
 	}
+    
+
 	/* end style popup */
 
 	
@@ -1034,7 +1044,7 @@ swayAnimations: ['sway-0', 'sway-1', 'sway-2', 'sway-3', 'sway-4', 'sway-5', 'sw
 				<section id="footer">
 					<div class="container">
 						<ul class="copyright">
-							<li>&copy; 2015 Issac Chern. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                            <li>&copy; 2015 Issac Chern. All rights reserved.</li><li>Design: <a href="http://html5up.net" >HTML5 UP</a></li> 
 						</ul>
 					</div>
 				</section>
@@ -1047,14 +1057,16 @@ swayAnimations: ['sway-0', 'sway-1', 'sway-2', 'sway-3', 'sway-4', 'sway-5', 'sw
 
 <div class="popup-wrapper" id="popup" >
 	<div class="popup-container">
-
-		<!-- Konten popup, silahkan ganti sesuai kebutughan -->
-		
         
-        <img src="images/popup2.png" alt="Anniversary" width=700px />
-		<a class="popup-close" href="#popup">X</a>
+        <a href="#popup" ><img src="images/popup2.png" alt="Anniversary" width= 100% /></a>
+        <a class="popup-close" href="#popup">X</a>
+		
 	</div>
 </div>
+
+
+
+
 
 
 	</body>
