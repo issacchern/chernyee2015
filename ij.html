@@ -38,14 +38,28 @@
         </script> 
         
         
+      
+        
+        
+        
+        
         <script language="javascript">
             
             var correct = false; 
             
             while(!correct){ 
                 var getin = prompt("What is the secret code?","")
+                
+                if(getin == null){
+                    window.location.href = 'http://issacchern.github.io'; 
+                    break;
+                }
+                
+                
                 if(getin == "iloveyou"){
                     correct = true;
+                } else{
+                    alert("Wrong password!");
                 }
       
             }
@@ -53,6 +67,14 @@
 
          
         </script>
+        
+        
+        
+        
+        
+        
+        
+        
 
         
         <script>
@@ -170,14 +192,112 @@
         
         
         
+<style type="text/css">
+	/* style untuk link popup */
+	a.popup-link {
+		padding:17px 0;
+		text-align: center;
+		margin:10% auto;
+		position: relative;
+		width: 300px;
+		color: #fff;
+		text-decoration: none;
+		background-color: #FFBA00;
+		border-radius: 3px;
+		box-shadow: 0 5px 0px 0px #eea900;
+		display: block;
+	}
+	a.popup-link:hover {
+		background-color: #ff9900;
+		box-shadow: 0 3px 0px 0px #eea900;
+		-webkit-transition:all 1s;
+		transition:all 1s;
+	}
+	/* end link popup*/
+	/* animasi popup */
 
+	@-webkit-keyframes autopopup {
+		from {opacity: 0;margin-top:-200px;}
+		to {opacity: 1;}
+	}
+	@-moz-keyframes autopopup {
+		from {opacity: 0;margin-top:-200px;}
+		to {opacity: 1;}
+	}
+	@keyframes autopopup {
+		from {opacity: 0;margin-top:-200px;}
+		to {opacity: 1;}
+	}
+	/* end animasi popup */
+	/*style untuk popup */	
+	#popup {
+		background-color: rgba(0,0,0,0.8);
+		position: fixed;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:0;
+		-webkit-animation:autopopup 2s;
+		-moz-animation:autopopup 2s;
+		animation:autopopup 2s;
+	}
+	#popup:target {
+		-webkit-transition:all 1s;
+		-moz-transition:all 1s;
+		transition:all 1s;
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	@media (min-width: 768px){
+		.popup-container {
+			width:800px;
+		}
+	}
+	@media (max-width: 1767px){
+		.popup-container {
+			width:100%;
+		}
+	}
+	.popup-container {
+		position: relative;
+		margin:7% auto;
+		padding:30px 50px;
+		background-color: #fafafa;
+		color:#333;
+		border-radius: 3px;
+	}
+
+	a.popup-close {
+		position: absolute;
+		top:3px;
+		right:3px;
+		background-color: #333;
+		padding:7px 10px;
+		font-size: 20px;
+		text-decoration: none;
+		line-height: 1;
+		color:#fff;
+	}
+	/* end style popup */
+
+	
+
+	</style>
+        
+    <style>
+        mark { 
+            background-color: #857981;
+            color: #FFF;
+            font-family: Helvetica;
+            font-style: Normal;
+            font-size: 24px;
+            
+        }
+    </style>
         
 
-        
-        
-        
-
- 
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
@@ -197,6 +317,10 @@ swayAnimations: ['sway-0', 'sway-1', 'sway-2', 'sway-3', 'sway-4', 'sway-5', 'sw
 });
 </script>
         
+
+        
+
+        
         
         
 		<div id="wrapper">
@@ -206,7 +330,26 @@ swayAnimations: ['sway-0', 'sway-1', 'sway-2', 'sway-3', 'sway-4', 'sway-5', 'sw
 					<header>
 						<span class="image avatar"><img src="images/1.jpg" alt="Chern Yee Chua" /></span>
 						<h1 id="logo"><a href="#">Issac & Janice </a></h1>
-						<p>Our love story begins here...</p>
+						<p>
+                        
+                        <mark>
+                            
+                           <script type="text/javascript">
+                            //Set the two dates
+                            var startdate=new Date(2014, 8, 19) //Month is 0-11 in JavaScript
+                            today=new Date()
+                            //Get 1 day in milliseconds
+                            var one_day=1000*60*60*24
+
+                            //Calculate difference btw the two dates, and convert to days
+                            document.write( Math.ceil((today.getTime()-startdate.getTime())/(one_day)))
+                        </script></mark> days since September 19, 2014
+                        
+                        
+                        
+                        
+                        
+                        </p>
 					</header>
 					<nav id="nav">
 						<ul>
@@ -220,11 +363,11 @@ swayAnimations: ['sway-0', 'sway-1', 'sway-2', 'sway-3', 'sway-4', 'sway-5', 'sw
 					</nav>
 					<footer>
 						<ul class="icons">
-							<li><a href="#" class="icon fa-heart"><span class="label">Hidden</span></a></li>
-							<li><a href="#" class="icon fa-heart-o"><span class="label">Hidden</span></a></li>
-							<li><a href="#" class="icon fa-heart"><span class="label">Hidden</span></a></li>
-                            <li><a href="#" class="icon fa-heart-o"><span class="label">Hidden</span></a></li>
-                            <li><a href="#" class="icon fa-heart"><span class="label">Hidden</span></a></li>
+							<li><a  class="icon fa-heart"><span class="label">Hidden</span></a></li>
+							<li><a  class="icon fa-heart-o"><span class="label">Hidden</span></a></li>
+							<li><a  class="icon fa-heart"><span class="label">Hidden</span></a></li>
+                            <li><a  class="icon fa-heart-o"><span class="label">Hidden</span></a></li>
+                            <li><a  class="icon fa-heart"><span class="label">Hidden</span></a></li>
 						</ul>
 					</footer>
 				</section>
@@ -241,13 +384,16 @@ swayAnimations: ['sway-0', 'sway-1', 'sway-2', 'sway-3', 'sway-4', 'sway-5', 'sw
 									<h2>My Sweet babe</h2>
 									<p>Here's to our long way of journey ...</p>
                                     
-
-                              
-                                    
-                                    
                                     <span class="image fit">
                                         <a href="enlarged.html" target="_blank">
                                             <img src="images/NewPicture.jpg" />
+                                        </a>
+                                        
+                                    </span>
+                                    
+                                    <span class="image fit">
+                                        <a href="enlarged2.html" target="_blank">
+                                            <img src="images/12345.jpg" />
                                         </a>
                                         
                                     </span>
@@ -899,7 +1045,16 @@ swayAnimations: ['sway-0', 'sway-1', 'sway-2', 'sway-3', 'sway-4', 'sway-5', 'sw
 <script src="sakura/jquery-sakura.min.js"></script>
 
 
+<div class="popup-wrapper" id="popup" >
+	<div class="popup-container">
 
+		<!-- Konten popup, silahkan ganti sesuai kebutughan -->
+		
+        
+        <img src="images/popup2.png" alt="Anniversary" width=700px />
+		<a class="popup-close" href="#popup">X</a>
+	</div>
+</div>
 
 
 	</body>
